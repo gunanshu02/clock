@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#cont{
+    position: relative;
+    margin: auto;
+    /* border: 5px solid black; */
+    background: url("https://gunanshu02.github.io/analog%20clock/clock.jpg") no-repeat center ;
+    /* background-color: white; */
+    height: 50vw;
+    width: 50vw;
+    
+    background-size: 100%;
+  
+}
+#hours,#minutes,#seconds{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+    
+}
+#hours{
+    width: 3%;
+    height: 25%;
+    top: 25%;
+    left: 48.25%;
+    /* display: none; */
+    /* background-color: red; */
+    border-radius: 50%;
+
+}
+#minutes{
+    width: 2%;
+    height: 38%;
+    top: 12%;
+    /* background-color: red; */
+    border-radius: 48%;
+    left: 48.75%;
+    /* display: none;  */
+}
+#seconds{
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    /* background-color: red;    */
+    left: 49.26%;
+    border-radius: 47%;
+    /* display: none; */
+}
